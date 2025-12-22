@@ -1,0 +1,150 @@
+{
+  "users": [
+    {
+      "id": "100001",
+      "name": "anu",
+      "email": "anu@gmail.com",
+      "password": "anushiya@1",
+      "createdQuizzes": [
+        "A5A8WH"
+      ]
+    },
+    {
+      "id": "100002",
+      "name": "jothi",
+      "email": "gnana07092004@gmail.com",
+      "password": "jothi@79",
+      "createdQuizzes": [
+        "25BT9U",
+        "DWSKSM"
+      ]
+    },
+    {
+      "id": "6906",
+      "name": "vasan",
+      "email": "vasan@gmail.com",
+      "password": "vasan@79",
+      "createdQuizzes": [
+        "4DPYNJ"
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "1",
+      "quizCode": "A5A8WH",
+      "title": "Quiz by anu",
+      "createdBy": "9eb6",
+      "questions": [
+        {
+          "question": "sun",
+          "options": [
+            "s",
+            "d",
+            "yellow",
+            "g"
+          ],
+          "correct": 2
+        },
+        {
+          "question": "apple",
+          "options": [
+            "e",
+            "red",
+            "s",
+            "y"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "4cfb",
+      "quizCode": "25BT9U",
+      "title": "Quiz by jothi",
+      "createdBy": "100002",
+      "questions": [
+        {
+          "question": "orange",
+          "options": [
+            "o",
+            "r",
+            "e",
+            "w"
+          ],
+          "correct": 0
+        }
+      ]
+    },
+    {
+      "id": "0d34",
+      "quizCode": "DWSKSM",
+      "title": "Quiz by jothi",
+      "createdBy": "100002",
+      "questions": [
+        {
+          "question": "white",
+          "options": [
+            "d",
+            "w",
+            "e",
+            "r"
+          ],
+          "correct": 1
+        }
+      ]
+    },
+    {
+      "id": "ff86",
+      "quizCode": "4DPYNJ",
+      "title": "Quiz by vasan",
+      "createdBy": "6906",
+      "timerType": "per",
+      "totalTime": null,
+      "perQuestionTime": 10,
+      "questions": [
+        {
+          "question": "red",
+          "options": [
+            "f",
+            "e",
+            "w",
+            "r"
+          ],
+          "correct": 3,
+          "time": 10
+        }
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "id": "2b34",
+      "quizId": "0d34",
+      "quizCode": "DWSKSM",
+      "userId": "100002",
+      "score": 1
+    },
+    {
+      "id": "4875",
+      "quizId": "ff86",
+      "quizCode": "4DPYNJ",
+      "userId": "6906",
+      "score": 1
+    },
+    {
+      "id": "46df",
+      "quizId": "1",
+      "quizCode": "A5A8WH",
+      "userId": "6906",
+      "score": 2
+    },
+    {
+      "id": "5e48",
+      "quizId": "0d34",
+      "quizCode": "DWSKSM",
+      "userId": "6906",
+      "score": 1
+    }
+  ]
+}
