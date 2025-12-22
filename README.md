@@ -30,9 +30,9 @@ Users can create quizzes, attend quizzes using a quiz code, view results, and ch
 - **Styling:** CSS (Glassmorphism / Modern UI)
 - **State Management:** React Hooks & LocalStorage
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Gnana Jothi
-Frontend Developer | React Enthusiast
+- Gnana Jothi
+- Frontend Developer | React Enthusiast
 
 
