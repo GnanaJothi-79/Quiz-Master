@@ -35,4 +35,6 @@ Users can create quizzes, attend quizzes using a quiz code, view results, and ch
 - Gnana Jothi
 - Frontend Developer | React Enthusiast
 
+- [Active Link](https://quiz-masster.netlify.app/)
+
 
