@@ -14,10 +14,10 @@ export default function Home() {
       nav("/login");
       return;
     }
-    fetch(`http://localhost:3001/quizzes?createdBy=${user.id}`)
+    fetch(`https://quiz-master-1-6y01.onrender.com/quizzes?createdBy=${user.id}`)
       .then(res => res.json())
       .then(setMyQuizzes);
-    fetch(`http://localhost:3001/attempts?userId=${user.id}`)
+    fetch(`https://quiz-master-1-6y01.onrender.com/attempts?userId=${user.id}`)
       .then(res => res.json())
       .then(setMyAttempts);
   }, [user, nav]);

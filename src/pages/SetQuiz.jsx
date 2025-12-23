@@ -81,14 +81,14 @@ export default function SetQuiz() {
     };
 
     try {
-      await fetch("http://localhost:3001/quizzes", {
+      await fetch("https://quiz-master-1-6y01.onrender.com/quizzes", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(quizData)
       });
 
       const updatedUser = { ...user, createdQuizzes: [...(user.createdQuizzes || []), quizCode] }; 
-      await fetch(`http://localhost:3001/users/${user.id}`,
+      await fetch(`https://quiz-master-1-6y01.onrender.com/users/${user.id}`,
          { method: "PUT", headers: { "Content-Type": "application/json" }, 
          body: JSON.stringify(updatedUser) }); 
        localStorage.setItem("currentUser", JSON.stringify(updatedUser));

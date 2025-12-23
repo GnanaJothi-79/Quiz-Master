@@ -12,7 +12,7 @@ export default function Quiz() {
 
   useEffect(() => {
     const loadQuiz = async () => {
-      const res = await fetch(`http://localhost:3001/quizzes/${id}`);
+      const res = await fetch(`https://quiz-master-1-6y01.onrender.com/quizzes/${id}`);
       const data = await res.json();
       setQuiz(data);
       if (data.timerType === "total") {

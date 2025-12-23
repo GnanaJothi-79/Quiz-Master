@@ -16,7 +16,7 @@ export default function AttendQuiz() {
     }
     const fetchQuizzes = async () => {
       try {
-        const res = await fetch("http://localhost:3001/quizzes");
+        const res = await fetch("https://quiz-master-1-6y01.onrender.com/quizzes");
         const data = await res.json();
         setQuizzes(data);
       } catch (err) {
@@ -32,7 +32,7 @@ export default function AttendQuiz() {
   const checkAttempt = async (quizId) => {
     try {
       const res = await fetch(
-         `http://localhost:3001/attempts?quizId=${quizId}&userId=${user.id}`
+         `https://quiz-master-1-6y01.onrender.com/attempts?quizId=${quizId}&userId=${user.id}`
       );
       const data = await res.json();
       return data.length > 0;

@@ -11,7 +11,7 @@ export default function Login() {
       return;
     }
     try { 
-      const res = await fetch(`http://localhost:3001/users?email=${email}&password=${password}`);
+      const res = await fetch(`https://quiz-master-1-6y01.onrender.com/users?email=${email}&password=${password}`);
       const data = await res.json();
       if (data.length > 0) {
         localStorage.setItem("currentUser", JSON.stringify(data[0]));

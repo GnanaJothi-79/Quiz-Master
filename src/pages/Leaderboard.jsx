@@ -12,11 +12,11 @@ export default function Leaderboard() {
     const loadLeaderboard = async () => {
       try {
         const attemptRes = await fetch(
-          `http://localhost:3001/attempts?quizId=${quizId}`
+          `https://quiz-master-1-6y01.onrender.com/attempts?quizId=${quizId}`
         );
         const attempts = await attemptRes.json();
 
-        const userRes = await fetch("http://localhost:3001/users");
+        const userRes = await fetch("https://quiz-master-1-6y01.onrender.com/users");
         const users = await userRes.json();
 
         const merged = attempts.map(a => {

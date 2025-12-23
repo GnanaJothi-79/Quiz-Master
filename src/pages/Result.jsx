@@ -19,11 +19,11 @@ export default function Result() {
     const markAttempt = async () => {
       try {
         const res = await fetch(
-          `http://localhost:3001/attempts?quizId=${data.quiz.id}&userId=${user.id}`
+          `https://quiz-master-1-6y01.onrender.com/attempts?quizId=${data.quiz.id}&userId=${user.id}`
         );
         const existing = await res.json();
         if (existing.length === 0) {
-          await fetch("http://localhost:3001/attempts", {
+          await fetch("https://quiz-master-1-6y01.onrender.com/attempts", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
