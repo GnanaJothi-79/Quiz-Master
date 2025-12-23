@@ -47,7 +47,7 @@ To get started with the app:
    - Create a new quiz as a quiz setter  
    - Attend a quiz using a quiz code
 
-3️⃣ **Try this sample quiz code** to explore: `5Y1BML`
+3️⃣ **Try this sample quiz code** to explore: `UH5LMK`
 
 The app supports:  
 - Quiz creation with multiple questions  
