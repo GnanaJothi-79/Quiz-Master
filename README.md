@@ -37,6 +37,6 @@ Users can create quizzes, attend quizzes using a quiz code, view results, and ch
 
 ## Active Link
 
-- [Active Link](https://quiz-masster.netlify.app/)
+- [Link](https://quiz-masster.netlify.app/)
 
 
