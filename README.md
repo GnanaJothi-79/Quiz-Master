@@ -45,7 +45,8 @@ To get started with the app:
 1️⃣ **Login or Sign Up** (for first-time users)  
 2️⃣ **Choose an option:**  
    - Create a new quiz as a quiz setter  
-   - Attend a quiz using a quiz code  
+   - Attend a quiz using a quiz code
+
 3️⃣ **Try this sample quiz code** to explore: `5Y1BML`
 
 The app supports:  
