@@ -40,3 +40,17 @@ Users can create quizzes, attend quizzes using a quiz code, view results, and ch
 - [Link](https://quiz-masster.netlify.app/)
 
 
+
+## 🚀 Explore My Quiz Application
+
+To get started with the app:
+
+1️⃣ Login or Sign Up (for first-time users)
+2️⃣ Choose an option:
+  • Create a new quiz as a quiz setter
+  • Attend a quiz using a quiz code
+3️⃣ Use this sample quiz code to explore: 5Y1BML
+
+The app supports quiz creation, timed attempts, instant results, and a leaderboard experience.
+
+
