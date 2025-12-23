@@ -38,8 +38,8 @@ export default function SetQuiz() {
       !current.question.trim() ||
       current.options.some(o => !o.trim()) ||
       current.correct === "" ||
-      current.correct < 0 ||
-      current.correct > 3 ||
+      current.correct < 1 ||
+      current.correct > 4 ||
       (timerType === "per" && (!current.time || current.time <= 0))
     ) {
       alert("Please complete the current question before moving next");
@@ -65,7 +65,15 @@ export default function SetQuiz() {
   };
 
   const saveQuiz = async () => {
-    if (questions.some(q => !q.question || q.options.some(o => !o))) {
+    if (
+  questions.some(
+    q =>
+      !q.question ||
+      q.options.some(o => !o) ||
+      q.correct < 0 ||
+      q.correct > 3
+  )
+) {
       alert("Please fill all questions and options");
       return;
     }
@@ -149,11 +157,11 @@ export default function SetQuiz() {
 
       <input
         type="number"
-        min="0"
-        max="3"
-        placeholder="Correct option (0-3)"
-        value={current.correct}
-        onChange={e => updateQuestion("correct", Number(e.target.value))}
+        min="1"
+        max="4"
+        placeholder="Correct option (1-4)"
+        value={current.correct+1}
+        onChange={e => updateQuestion("correct", Number(e.target.value)-1)}
       />
 
       {timerType === "per" && (
