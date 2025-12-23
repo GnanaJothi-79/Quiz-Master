@@ -10,10 +10,7 @@ Users can create quizzes, attend quizzes using a quiz code, view results, and ch
 - 🔐 User Authentication (Signup / Login)
 - 🧑‍🏫 Create quizzes with multiple questions
 - 🔢 Auto-generated Quiz Code
-- ⏱ Timer options:
-  - No timer
-  - Per-question timer
-  - Whole quiz timer
+- ⏱  With Timer options
 - 🧑‍🎓 Attend quiz using quiz code
 - ✅ One attempt per user per quiz
 - 📊 Result calculation & review
@@ -39,18 +36,23 @@ Users can create quizzes, attend quizzes using a quiz code, view results, and ch
 
 - [Link](https://quiz-masster.netlify.app/)
 
+---
 
-
-## 🚀 Explore My Quiz Application
+# Explore My Quiz Application
 
 To get started with the app:
 
-1️⃣ Login or Sign Up (for first-time users)
-2️⃣ Choose an option:
-  • Create a new quiz as a quiz setter
-  • Attend a quiz using a quiz code
-3️⃣ Use this sample quiz code to explore: 5Y1BML
+1️⃣ **Login or Sign Up** (for first-time users)  
+2️⃣ **Choose an option:**  
+   - Create a new quiz as a quiz setter  
+   - Attend a quiz using a quiz code  
+3️⃣ **Try this sample quiz code** to explore: `5Y1BML`
 
-The app supports quiz creation, timed attempts, instant results, and a leaderboard experience.
+The app supports:  
+- Quiz creation with multiple questions  
+- Timed attempts (per-question or total quiz timer)  
+- Instant results after submission  
+- Leaderboard to track top performers
+  
 
 
