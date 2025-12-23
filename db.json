@@ -16,7 +16,9 @@
       "password": "jothi@79",
       "createdQuizzes": [
         "25BT9U",
-        "DWSKSM"
+        "DWSKSM",
+        "RE9YUL",
+        "HEMOJN"
       ]
     },
     {
@@ -115,6 +117,50 @@
           "time": 10
         }
       ]
+    },
+    {
+      "id": "24ea",
+      "quizCode": "RE9YUL",
+      "title": "Quiz by jothi",
+      "createdBy": "100002",
+      "timerType": "total",
+      "totalTime": 1800,
+      "perQuestionTime": null,
+      "questions": [
+        {
+          "question": "rose",
+          "options": [
+            "r",
+            "t",
+            "y",
+            "r"
+          ],
+          "correct": 4,
+          "time": 10
+        }
+      ]
+    },
+    {
+      "id": "4f3f",
+      "quizCode": "HEMOJN",
+      "title": "Quiz by jothi",
+      "createdBy": "100002",
+      "timerType": "none",
+      "totalTime": null,
+      "perQuestionTime": null,
+      "questions": [
+        {
+          "question": "ggold",
+          "options": [
+            "h",
+            "g",
+            "r",
+            "w"
+          ],
+          "correct": 1,
+          "time": 10
+        }
+      ]
     }
   ],
   "attempts": [
@@ -145,6 +191,13 @@
       "quizCode": "DWSKSM",
       "userId": "6906",
       "score": 1
+    },
+    {
+      "id": "0385",
+      "quizId": "4f3f",
+      "quizCode": "HEMOJN",
+      "userId": "100002",
+      "score": 0
     }
   ]
 }
