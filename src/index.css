@@ -1,4 +1,3 @@
- /* GLOBAL THEME COLORS */
 
 :root {
   --cerulean: #007BA7;
@@ -8,8 +7,6 @@
   --white: #ffffff;
   --dark: #0f172a;
 }
-
-/*   BODY BACKGROUND */
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -33,8 +30,6 @@ body {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
-/* CENTER CONTAINER */
 .center {
   min-height: 100vh;
   display: flex;
@@ -45,8 +40,6 @@ body {
   text-align: center;
   animation: fadeSlide 1.2s ease forwards;
 }
-
-/*  CARD STYLE */
 .center,
 .card {
   background: rgba(255, 255, 255, 0.12);
@@ -72,7 +65,6 @@ h3 {
   color: #c7d2fe;
 }
 
-/* Floating heading animation */
 @keyframes floatText {
   0%,100% { transform: translateY(0); }
   50% { transform: translateY(-10px); }
@@ -93,8 +85,6 @@ input:focus {
   box-shadow: 0 0 0 3px rgba(0,150,136,0.6);
   transform: scale(1.03);
 }
-
-/*  BUTTON STYLE */
 button {
   padding: 14px 30px;
   border-radius: 16px;
@@ -114,7 +104,6 @@ button {
   overflow: hidden;
 }
 
-/* Button shine */
 button::before {
   content: "";
   position: absolute;
@@ -145,8 +134,6 @@ button:hover {
 button:active {
   transform: scale(0.96);
 }
-
-/* QUIZ OPTIONS */
 .quiz-option {
   width: 100%;
   max-width: 420px;
@@ -168,7 +155,6 @@ button:active {
   animation: popIn 0.8s ease forwards;
 }
 
-/* REVIEW CARDS*/
 .review-card {
   background: rgba(255,255,255,0.15);
   margin: 12px;
@@ -176,8 +162,6 @@ button:active {
   border-radius: 18px;
   animation: fadeSlide 0.6s ease forwards;
 }
-
-/*  ANIMATIONS */
 @keyframes fadeSlide {
   from {
     opacity: 0;
@@ -213,8 +197,6 @@ p {
 p:hover {
   text-decoration: underline;
 }
-
-/* RESPONSIVE */
 @media (max-width: 600px) {
   h1 {
     font-size: 2.2rem;
@@ -257,7 +239,7 @@ p:hover {
   100% { transform: translateX(0); }
 }   
  
-/* NAVBAR */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -288,8 +270,6 @@ p:hover {
   font-size: 16px;
   cursor: pointer;
 }
-
-/* HAMBURGER */
 .hamburger {
   display: none;
   font-size: 32px;
@@ -298,8 +278,6 @@ p:hover {
   cursor: pointer;
   z-index: 10001;       
 }
-
-/* MOBILE */
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block !important;
@@ -327,8 +305,6 @@ p:hover {
     display: block;
   }
 }
-
-/* POPUP OVERLAY */
 .popup-overlay {
   position: fixed;
   inset: 0;
@@ -360,8 +336,6 @@ p:hover {
   font-size: 22px;
   cursor: pointer;
 }
-
-/* AVATAR */
 .popup-avatar {
   width: 100px;
   border-radius: 50%;
@@ -375,8 +349,6 @@ p:hover {
   border-radius: 14px;
   margin-top: 10px;
 }
-
-/* ANIMATION */
 @keyframes popIn {
   from {
     transform: scale(0.8);
@@ -449,7 +421,6 @@ p:hover {
     text-align: left;
 }
 
-/* TIMER TEXT */
 .preview-question .timer {
   font-size: 13px;
   color: #6b7280;
