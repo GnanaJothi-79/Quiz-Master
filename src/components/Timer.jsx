@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 
 export default function Timer({
-  seconds = 0,      // total seconds
-  onEnd = () => {}, // callback when timer finishes
-  autoStart = true // allow pause control later if needed
+  seconds = 0,      
+  onEnd = () => {}, 
+  autoStart = true 
 }) {
   const [time, setTime] = useState(seconds);
   const timerRef = useRef(null);
