@@ -1,3 +1,19 @@
+
+Company: Codetech IT Solutions
+
+Intern: Gnana Jothi G
+Intern ID: CTIS0336
+Domain: Frontend Development
+Duration: 4 Weeks
+Mentor: Neela Santhosh  
+
+<img width="1898" height="866" alt="Image" src="image1.jpg" />
+<img width="1898" height="866" alt="Image" src="image2.jpg" />
+<img width="1898" height="866" alt="Image" src="image3.jpg" />
+<img width="1898" height="866" alt="Image" src="image4.jpg" />
+<img width="1898" height="866" alt="Image" src="image5.jpg" />
+<img width="1898" height="866" alt="Image" src="image6.jpg" />
+
 # 📝 Quiz Application (React + JSON Server)
 
 A full-featured quiz application built using **React**, **React Router**, and **JSON Server**.  
